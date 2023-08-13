@@ -19,7 +19,7 @@ class toDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //test branch dneme
         sehirIsmiLabel.text = secilenSehir?.isim
         sehirBolgesiLabel.text = secilenSehir?.ulke
         imageView.image = secilenSehir?.gorsel
